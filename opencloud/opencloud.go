@@ -115,14 +115,8 @@ func (c *Client) init() *Client {
 // WithCredential will let you use a custom credential to authenticate with the Opencloud API.
 // You can use [auth.APIKey] or [auth.OAuthToken] to create a credential.
 func (c *Client) WithCredential(cred auth.Credential) *Client {
-	nc := &Client{
-		client:       c.client,
-		credential:   cred,
-		userAgent:    c.userAgent,
-		retry:        c.retry,
-		retryEnabled: c.retryEnabled,
-	}
-
+	nc := *c
+	nc.credential = cred
 	return nc.init()
 }
 
