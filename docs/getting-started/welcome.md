@@ -19,10 +19,6 @@ Easily integrate Roblox's OpenCloud & legacy APIs into your Go projects.
 - Automatic rate limit retrying, enabled by default.
 
 ## Installation
-::: info
-Go 1.23 or newer is required.
-:::
-
 ```bash
 go get -u github.com/luckfire/goblox
 ```

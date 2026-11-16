@@ -3,7 +3,7 @@
 Easily integrate Roblox's OpenCloud & legacy APIs into your Go projects.
 
 > [!CAUTION]
-> While this library is used in some production deployments, it is not considered fully stable. If you want to contribute, feel free to open a PR!
+> While this library is used in some production deployments, it is not considered fully stable. If a feature is missing or there is some sort of bug, feel free to open an issue!
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/luckfire/goblox.svg)](https://pkg.go.dev/github.com/luckfire/goblox)
 [![Go Version](https://img.shields.io/github/go-mod/go-version/luckfire/goblox)](go.mod)

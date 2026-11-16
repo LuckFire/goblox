@@ -1,0 +1,35 @@
+name: 🟢 API Request
+title: "[API Request]: "
+description: Request the implementation of a missing API.
+labels: [api-request]
+body:
+  - type: dropdown
+    id: client
+    attributes:
+      label: Client
+      options: [opencloud, legacy]
+    validations:
+      required: true
+  - type: input
+    id: api
+    attributes:
+      label: API
+      description: The service or domain, e.g. Groups or economy.roblox.com.
+    validations:
+      required: true
+  - type: textarea
+    id: endpoints
+    attributes:
+      label: Endpoints
+      description: The specific endpoints you need, one per line, or "all".
+      placeholder: |
+        GET /v1/groups/{groupId}
+        GET /v1/groups/{groupId}/roles
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: docs
+    attributes:
+      label: Roblox API docs
+      description: Link to the documentation, if any exists.
