@@ -15,7 +15,7 @@ Easily integrate Roblox's OpenCloud & legacy APIs into your Go projects.
 - Easily authenticate with cookies, api keys, and oauth2 tokens.
     - CSRF tokens automatically get handled when using cookies.
     - Authentication is checked per-endpoint to prevent the wrong credential types from being used.
-    - API keys and Oauth2 tokens optionally support being introspected to prevent invalid requests from being sent from missing scopes.
+    - API keys and oauth2 tokens optionally support being introspected to prevent invalid requests from being sent from missing scopes.
 - Automatic rate limit retrying, enabled by default.
 
 ## Installation
