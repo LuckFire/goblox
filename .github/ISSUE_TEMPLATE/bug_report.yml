@@ -1,4 +1,5 @@
-name: Bug report
+name: 🐛 Bug Report
+title: "[Bug]: "
 description: Report something in goblox that isn't working as expected.
 labels: [bug]
 body:
